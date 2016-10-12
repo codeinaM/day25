@@ -51,7 +51,7 @@ body {
 .ba-footer {
 	font: 700 18px/2 "Lato", Arial, sans-serif;
 	color: #EAA258;
-	box-sizing: birder-box;
+	box-sizing: border-box;
 	display: inline-block;
 	text-align: center;
 	text-transform: uppercase;
