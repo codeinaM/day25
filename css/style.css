@@ -1,0 +1,73 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display';
+* {
+	transition: all .2s ease-in;
+}
+*.*:before, *:after {
+	box-sizing: border-box;
+
+}
+html {
+	min-height: 100%;
+}
+html {
+	height: 100%;
+}
+body {
+	font: 400 18px/2 "Lato", Arial, sans-serif;
+	color: #171717;
+	margin: 100px 130px;
+	padding: 0 123px 0 140px;
+	text-decoration: thin;
+	border: solid .3em #fff;
+	box-shadow: 0 0 110px rgba(0,0,0,0.1);
+}
+.ba-container {
+	font: 400 32px "Playfair Display", Georgia, serif;
+	background-color: #FFF;
+	text-decoration: thin;
+	padding: 110px 0 0 0;
+	margin-bottom: 31px;
+	margin: 0;
+}
+.ba-letter:first-letter {
+	font: 400 110px/0.8 "Playfair Display", Georgia, serif;
+	float: left;
+	margin-right: 15px;
+	padding: 0;
+}
+.ba-cite {
+	font: 300 24px/1.4 "Lato", Arial, sans-serif;
+	font-style: italic;
+}
+.ba-cite:before {
+	content: "“";
+	font-size: 55px;
+    margin-right: 20px;
+    vertical-align: -.4em;
+    display: inline;
+    border: none;
+}
+.ba-footer {
+	font: 700 18px/2 "Lato", Arial, sans-serif;
+	color: #EAA258;
+	box-sizing: birder-box;
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	text-decoration: none;
+	margin-top: 30px;
+	padding: 13px 60px 13px 60px;
+	background-color: #FFF;
+	border: solid .07em #EAA258;
+	margin-bottom: 134px;
+}
+.ba-footer:hover {
+	background-color: #EAA258;
+	color: #fff;
+}
+.ba-footer:active {
+	background-color: #F9CC9D ;
+	color: #fff ;
+}
