@@ -16,7 +16,6 @@ html {
 body {
 	font: 400 18px/2 "Lato", Arial, sans-serif;
 	color: #171717;
-	margin: 100px 130px;
 	padding: 0 123px 0 140px;
 	text-decoration: thin;
 	border: solid .3em #fff;
@@ -28,7 +27,7 @@ body {
 	text-decoration: thin;
 	padding: 110px 0 0 0;
 	margin-bottom: 31px;
-	margin: 0;
+	margin: 0 auto;
 }
 .ba-letter:first-letter {
 	font: 400 110px/0.8 "Playfair Display", Georgia, serif;
